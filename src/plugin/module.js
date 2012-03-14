@@ -8,8 +8,8 @@
 
     var __numStyleSheets,
         __trackEventCSSRules = {},
-        __cssRuleProperty = "butter-trackevent-type",
-        __cssRulePrefix = "#butter-timeline .trackliner-event",
+        __cssRuleProperty = "data-butter-trackevent-type",
+        __cssRulePrefix = "#butter-timeline .butter-track-event",
         __newStyleSheet = document.createElement( "style" );
 
     __newStyleSheet.type = "text/css";
